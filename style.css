@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgba(39, 44, 61, 1);
+    margin-bottom: 21px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    max-width: 1189px;
+    margin: 0 auto;
+}
+
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+a{
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+a:hover{
+    color: rgba(255, 156, 40, 1);
+}
+
+form{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(64, 72, 100, 1);
+    margin-left: 210px;
+}
+
+input{
+    height: 30px;
+    outline: none;
+    background-color: rgba(64, 72, 100, 1);
+}
+
+.dropdown{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 0px 5px 10px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+.dropdown-content{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selected-option{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.options{
+    height: 30px;
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.dropdown-content h2{
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.dropdown:hover .selected-option{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 190px;
+    border-radius: 5px;
+}
+
+.options:hover{
+    background-color: transparent;
+    padding: 5px;
+}
+
+.dropdown:hover img{
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+
+.bg-image{
+    height: 100vh;
+    background-image: url('./Bg\ \(14\).png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.begining{
+    margin: 0 auto;
+    margin-bottom: 59px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.begining h1{
+    text-align: center !important;
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.news{
+    background-color: rgba(27, 30, 39, 1);
+    padding-top: 61px;
+    padding-bottom: 129px;
+}
+
+.one{
+    margin-left: 235px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 142px;
+}
+
+.two{
+    margin-left: 235px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.news h1{
+    margin-left: 235px;
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 61px;
+}
+
+.letters{
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    width: 324px;
+}
+
+footer{
+    background-color: rgba(39, 44, 61, 1);
+    width: 100%;
+    height: 70px; 
+    padding-top: 22px;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
